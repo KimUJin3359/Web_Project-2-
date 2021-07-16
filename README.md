@@ -6,6 +6,14 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install nodejs
 ```
 
+#### 도움되는 리눅스 명령어
+```
+// 프로그램 실행 도중 ctrl + z 시 background 실행
+// 프로그램 실행 시 뒤에 & 붙일 시 background 실행
+jobs // 백그라운드에서 동작하고 있는 프로그램 확인
+kill -9 %번호 // 해당 번호의 process kill
+```
+
 #### nodemodules
 - 해당 폴더로 들어가서 npm i 명령어 입력시 자동으로 다운받아짐
 #### .env
