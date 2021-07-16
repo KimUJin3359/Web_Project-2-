@@ -1,5 +1,11 @@
 # Web_Project(2)
 
+#### ec2에 npm 설치하기
+```
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt install nodejs
+```
+
 #### nodemodules
 - 해당 폴더로 들어가서 npm i 명령어 입력시 자동으로 다운받아짐
 #### .env
